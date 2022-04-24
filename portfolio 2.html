@@ -12,8 +12,6 @@
 <body>
  
 
-    </main>
-
     <div class="hamburger-menu">
         <input id="menu__toggle" type="checkbox" >
         <label class="menu__btn" for="menu__toggle">
@@ -36,8 +34,6 @@
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
         </button>
-            </ul>
-        </nav>
     </header>
 
             <!-- Introduction -->
@@ -46,7 +42,7 @@
                     Hi, I am <strong>Ashifur Rahman</strong>
                 </h1>
                 <p class="section__subtitle section__subtitle--intro">This website gives an insight into my progress.</p>
-                <img src="images/me.jpg"  class="intro__img">
+                <img src="images/me.jpg"  alt="picture of me." class="intro__img"> 
             </section>
 
         <!-- blog -->
@@ -79,10 +75,11 @@
 
             <div class="Report__body">
                 <p>At the start of learning everything about web development, it was easy to comprehend and understand and apply my understanding into the work which I would do. However, throughout the middle of the term I had struggled with some concepts and trying to understand them and utilise them in my coding, for example primarily trying to set up an email form for. I had struggled with this for a while and sometimes had entirely given up. However, the best thing which I enjoy about this course is my friends who had supported me throughout the learning process and be able to utilise it properly and carry on using it within my future works. Another pivotal part which I’ll always struggle on is the design aspect. This is due to there being such a vast amount of people which could potentially view your website and all these people will have a range of diverse likings and interests, which my website may not appeal to. Furthermore, in general I have always struggled with designing many things so having to design a website to appeal to such a wide array of people makes me overcomplicate things and may get rid of a simplistic, clean design for a design which may be too overwhelming and may instead put many people off viewing my website in full.</p>
-                <p></p>
+                <p>I wanted to ensure the UI was user friendly as possible so that the user will easily be able to navigate throughout the website and not get confused while they’re navigating through my website. I also added hover effects to certain things such as the images contained within my portfolio, and some effects on some buttons to add some nice effects and not make the site entirely lacklustre. The font style I had went for throughout my website is consistently used. I had used this font style as it is easy for the user to read and understand.</p>
             </div>
 
-            <img src="images/report.jpg"  class="report__img">
+            <img src="images/Screenshot.jpg"  alt="an image report." class="report__img">
+            <img src="images/Screenshot2.jpg"  alt="an image report." class="screenshot__img">
          </section>
 
          <!-- My Work -->
@@ -145,11 +142,33 @@
 
          <!-- Footer -->
          <footer class="footer">
-            <href="rahmanashifur097@gmail.com" class="footer__link">rahmanashifur097@gmail.com</a>
+            <h2>Give Feedback to My Website.</h2>
+            <form action="mailto:rahmanashifur097@gmail.com" method="POST" enctype="text/plain">
+              <div>
+                <label for="name">Name:
+                  <input type="text" name="name" id="name" />
+                </label>
+              </div>
+              <div>
+                <label for="email">Email:
+                  <input type="text" name="email" id="email" />
+                </label>
+              </div>
+              <div>
+                <label>Comments:</label>
+                <br/>
+                <textarea name="comments" rows="12" cols="35">Send your comments to me.</textarea>
+              </div>
+              <div>
+                <input type="submit" name="submit" value="Send" />
+                <input type="reset" name="reset" value="Clear Form" />
+              </div>
+            </form>
+             
           
-                    </a>
-                </li>
-            </ul>
+           
+               <p>rahmanashifur097@gmail.com</p>
+          
         </footer>
 
         
